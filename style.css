@@ -1,0 +1,90 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+.container {
+    margin: 0px auto;
+    padding: 8px;
+    width: 700px;
+}
+@media (max-width: 960px) {
+    .container {
+      width: 600px;
+    }
+  }
+  @media (max-width: 720px) {
+    .container {
+      width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+    .container {
+      width: 300px;
+    }
+  }
+.card {
+    text-align: center;
+    background-color: #ffffff;
+    border: 2px solid lightgrey;
+    padding: 8px 24px;
+    margin: 8px auto;
+}
+body {
+    background-color: #f0f0f0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+p {
+    color: #888888;
+}
+
+h1 {
+    color: #888888;
+}
+
+.buttom-linkedin {
+  background-color: #27496d;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.buttom-linkedin:hover {
+    background-color: white;
+    border: 2px solid #27496d;
+    transition: 0.3s;
+}
+i {
+    color: #6886c5;
+}
+a {
+    text-decoration: none;
+    font-weight: 0;
+}
+a:hover{
+    color: black;
+}
+
+img {
+    height: 200px
+}
+
+h2 {
+    color: #00909e;
+}
+
+.list-inline > li {
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 30px;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
