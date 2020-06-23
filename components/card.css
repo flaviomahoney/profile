@@ -36,8 +36,8 @@
 .card-category {
   background-size: cover;
   background-position: center;
-	height: 250px;
-	width: 350px;
+  height: 250px;
+  width: 350px;
   display: flex;
   justify-content: center;
   align-items: center;

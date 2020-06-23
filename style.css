@@ -75,6 +75,6 @@ a i:hover{
 	color: #808080;
 }
 
-a:hover {
+.link-site:hover {
 	text-decoration: none;
 }
