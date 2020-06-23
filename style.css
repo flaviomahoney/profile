@@ -40,9 +40,9 @@ h1 {
     color: white;
 }
 
-img {
-	height: 300px;
-	width: 300px;
+.card-profile img {
+	height: 360px;
+	width: 360px;
 }
 
 h2 {
