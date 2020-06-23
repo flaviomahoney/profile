@@ -5,32 +5,55 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
         <link rel="stylesheet" href="style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
     </head>
     <body>
+
+      <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1548092372-0d1bd40894a3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);">
         <div class="container">
-            <div class="card">
-            <h1>Hello, I'm Flávio😎</h1>
-            <img class = "img-circle" src="images/image.jpeg" alt="_blank">
-            <p>I love sports, I'm trying everyday to become a better developer, I really love the algorithm part of programming,
-                so I love the progamming languages that I'm able to do that, for example Ruby, C++ and etc.</p>
-            <a href="https://www.linkedin.com/in/fl%C3%A1vio-mahoney-573495143/" class = "buttom-linkedin" target="_blank">My Linkedin</a>
-            </div>
 
-            <div class="card">
-                <h2>Skills</h2>
-                <p>SAP, Ruby, Javascript, C++, HTML, CSS</p>
-                <h2>Qualities</h2>
-                <p>Grit, Ambicious, Determined and Creative</p>
-            </div>
+          <div id="typed-strings">
+            <h1>Flávio Mahoney</h1>
+          </div>
+          <span id="typed" class ="name"></span>
 
-            <div class="card">
-            <h2>Follow me</h2>
-            <ul class = "list-inline">
-                <li><a href="https://github.com/flaviomahoney" target="_blank"><i class="fab fa-github-square"></i></a></li>
-                <li><a href="https://facebook.com/flavio.mahoney/"  target="_blank"><i class="fab fa-facebook"></i></a></li>
-                <li><a href="https://instagram.com/flaviomahoney/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-            </ul>
-            </div>
+          <p><strong>“The most damaging phrase in the language is.. it's always been done this way”</strong> - <em>Grace Hopper</em></p>
         </div>
+      </div>
+      <script>
+        var typed = new Typed('#typed',{
+                    stringsElement: '#typed-strings',
+                    backSpeed: 60,
+                    typeSpeed: 60
+                  });
+      </script>
+
+      <div class="container">
+        <div class="card-profile">
+          <img src="/images/image.png" alt="">
+          <div class="card-profile-info">
+            <h2>About me</h2>
+            <p>I started coding at 19 years old on an It College and I was not excited because It wasn't practical, I wasn't building anything and I was just learning math concepts.</p>
+            <p>So I decided to join the job market and I worked in a few companies including a big tech consulting firm called Accenture.</p>
+            <p>But I saw that I need to specialize in something so I dropped out and I found LeWagon and I fell in love with the concept of building things and creating your own app.</p>
+            <p>I think that I can contribute a lot with my expertise and my hole determination of solving complex problems and create beautiful web apps.</p>
+            <p></p>
+          </div>
+        </div>
+        <div class="card">
+        <h2>Follow me</h2>
+        <ul class = "list-inline">
+            <li><a href="https://github.com/flaviomahoney" target="_blank"><i class="fab fa-github-square"></i></a></li>
+            <li><a href="https://facebook.com/flavio.mahoney/"  target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://instagram.com/flaviomahoney/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+        </div>
+      </div>
+
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+      <script src="typed.js"></script>
     </body>
 </html>

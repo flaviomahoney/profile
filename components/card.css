@@ -1,0 +1,19 @@
+.card {
+	text-align: center;
+	background-color: #ffffff;
+	border: 2px solid lightgrey;
+	padding: 8px 24px;
+	margin: 8px auto;
+}
+
+.card-profile {
+	background-color: #ffffff;
+	border: 2px solid lightgrey;
+	padding: 8px 24px;
+	margin: 8px auto;
+	display: flex;
+}
+
+.card-profile-info {
+	margin-left: 16px;
+}
