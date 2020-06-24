@@ -85,6 +85,7 @@
 
 .card-profile-info {
 	margin-right: 64px;
+	word-spacing: none;
 }
 
 .card-profile-info p {
