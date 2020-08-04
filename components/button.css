@@ -1,0 +1,41 @@
+.buttom-linkedin {
+	background-color: #27496d;
+	border-radius: 5px;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+ }
+ .buttom-linkedin:hover {
+	  background-color: white;
+	  border: 2px solid #27496d;
+	  transition: 0.3s;
+ }
+ a {
+	  text-decoration: none;
+	  font-weight: 0;
+ }
+ a:hover{
+	  color: black;
+ }
+ 
+ #portuguese-button {
+	 background-color: #808080;
+	 margin-right: 16px;
+	 padding: 8px 26px;
+ }
+ 
+ #portuguese-button:hover {
+	background-color: #A9A9A9;
+ }
+ 
+ #english-button {
+	 background-color: #808080;
+	 padding: 8px 32px;
+ }
+ 
+ #english-button:hover {
+	background-color: #A9A9A9;
+ }

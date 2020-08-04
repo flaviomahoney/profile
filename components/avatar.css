@@ -1,0 +1,9 @@
+.avatar-large {
+  width: 56px;
+  border-radius: 50%;
+}
+
+.habilities {
+  display: flex;
+  justify-content: space-between;
+}
